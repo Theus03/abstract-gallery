@@ -89,7 +89,13 @@ body {
     margin-bottom: 3rem;
 }
 
-img:hover{
-    transition: 0.5s;
-    border: 
-}
+/* Estilo padrão para as imagens */
+img {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Efeito hover */
+  img:hover {
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255); Adiciona uma borda branca suave */
+  }
